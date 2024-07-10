@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popping',sans-serif;
+}
+body{
+     background-color: #081b29;
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+     font-size: 25px;
+     font-weight: 600;
+     color: #00abf0;
+     text-decoration: none;
+}
+.navbar a{
+    font-size: 18px;
+     font-weight: 500;
+     color: #00abf0;
+     text-decoration: none;
+     margin-left: 35px;
+     transform: .3s;
+}
+.home{
+    /* background: url(./img3.png) no-repeat;  */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    padding: 0 17%;
+}
+.home-content{
+    max-width: 600px;
+    text-align: justify;
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(213, 200, 200);
+}
+.home-content h3{
+    font-size: 30px;
+    margin-top: 5px;
+    color: #00abf0;
+}
+.home-content p{
+    margin-top: 15px;
+    color: #cbb9b9;
+    line-height: 20px;
+}
+.home-content .btb-box{
+   margin-top: 60px;
+    width: 500px;
+    height: 50px; 
+}
+ .btb-box a{
+    color: rgb(248, 248, 248);
+    display:inline-flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #00abf0;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #00abf0;
+    border-radius: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+} 
+.icon{
+ position: absolute;
+ width:  200px;
+ bottom: 270px;
+  display: inline-block;
+  justify-content: space-between;
+  display: flex;
+}
+.icon a{
+    position: relative;
+    color:rgb(213, 200, 200) ;
+     background: transparent;
+     display: inline-flex;
+    text-decoration: none;
+    font-size: 30px;
+    width:20px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+img{
+    display:block;
+  margin-left:30% ;
+  width: 70%;
+  border: 10px;
+  border-radius: 5%;
+}
